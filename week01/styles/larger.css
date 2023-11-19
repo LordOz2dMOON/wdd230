@@ -1,0 +1,40 @@
+@media screen and (min-width:758px)
+{
+    header
+    {
+        justify-content: center;
+    }
+
+    img
+    {
+        margin-right: 1em;
+    }
+
+    nav
+    {
+        display: flex;
+        justify-content:space-around;
+        background: #f8aa4b;
+    }
+
+    nav a
+    {
+        background-color: transparent;
+    }
+
+    h2
+    {
+        margin-right: 20em;
+    }
+
+    .card
+    {
+        display: grid;
+        margin-left: 100px;
+    }
+
+    
+        
+        
+
+}
