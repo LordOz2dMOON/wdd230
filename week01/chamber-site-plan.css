@@ -1,0 +1,15 @@
+p, li{
+    color: #565264;
+}
+
+body{
+    background-color: #FA9500;
+}
+
+h1, h2{
+    font-family: 'Playfair Display', serif;
+}
+
+p, li{
+    font-family: 'Roboto', sans-serif;
+}

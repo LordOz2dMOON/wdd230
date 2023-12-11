@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  background: #F45B69;
+  height: 100%;
+}
+
 
 header {
-    background: #ff6150;
+    background: #41463D;
     display: flex;
     width: 100%;
     margin: 0;
-    font-family: 'Catamaran', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-style: bold;
 }
@@ -28,37 +34,41 @@ h1{
     color: white;
 }
 
-nav a{
-    display: flex;
-    justify-content: center;
-    background-color: #f8aa4b;
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
+nav {
+    background-color: black;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: .75rem 0;
 }
 
-#different{
-    background-color: #54d2d2;
+.different{
+    background-color: #18314F;
 }
 
-main{
-    max-width: 800px;
-    justify-content: center;
-    background-color: #072448;
+section
+{
+    margin-right:auto;
+    margin-left:auto;
 }
 
-section{
-    display: grid;
-    margin: 1em;
-    border: solid;
+.card {
+    margin: 15px;
+    border: solid 2px;
     border-radius: 2%;
     text-decoration: none;
-    width: 60%;
+    width: auto;
+    justify-items: center;
 }
 
 h3{
-    background-color: #f8aa4b;
+    background-color: #41463D;
     text-align: center;
+    font-size: 1.5rem;
+    padding: 2px;
 }
 
 ul {
@@ -67,37 +77,36 @@ ul {
     color: white;
   }
 
+  h1{
+    color: black;
+    font-weight: bolder;
+  }
+
   h2{
     text-align: center;
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
-    margin: .5em;
+    color: black;
+    text-decoration: solid;
+    
   }
 
   p{
     text-align: center;
     font-size: bold;
-    color: white;
+    color: black;
+    margin-bottom: 0;
   }
 
   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: #ff6150;
+    background-color: #41463D;
     color: white;
     text-align: center;
   }
 
-  footer p{
-    text
-  }
-
-  body{
+body{
     background-color: #072448;
-    min-height: 100vh;
   }
 
   a:hover{
@@ -108,5 +117,6 @@ ul {
     color: white;
   }
 
+  
 
 

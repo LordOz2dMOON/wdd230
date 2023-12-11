@@ -1,40 +1,56 @@
-@media screen and (min-width:758px)
+@media only screen and (min-width:758px)
 {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     header
     {
         justify-content: center;
+        height:150px
     }
 
     img
     {
         margin-right: 1em;
+        height: 110px;
     }
 
-    nav
+    nav ul
     {
         display: flex;
-        justify-content:space-around;
-        background: #f8aa4b;
+        flex-direction: row;
     }
-
-    nav a
+nav ul li a{
+    padding: .25rem 4rem;
+}
+    nav a:hover
     {
-        background-color: transparent;
+      background-color: pink;  
     }
 
-    h2
-    {
-        margin-right: 20em;
-    }
 
-    .card
+    main
     {
         display: grid;
-        margin-left: 100px;
+        grid-template-columns: 2fr 1fr;
+        width: 100%;
     }
 
+    main h2
+    {
+        grid-column: 1 / span 2;
+    }
+
+    section p{
+        text-align: center; 
+    }
     
-        
+    li {
+        margin-bottom: 10px;
+    }
         
 
 }
